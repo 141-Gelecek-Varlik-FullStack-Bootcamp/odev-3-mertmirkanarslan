@@ -52,6 +52,8 @@ namespace SemtPazari.Service.User
             using (var context = new SemtPazariContext())
             {
                 model.Idatetime = DateTime.Now;
+                model.IsActive = true;
+                model.IsDeleted = false;
                 context.User.Add(model);
                 context.SaveChanges();
 

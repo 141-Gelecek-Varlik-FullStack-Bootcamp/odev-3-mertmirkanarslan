@@ -128,6 +128,10 @@ namespace SemtPazari.DB.Entities.DataContext
                     .HasColumnName("IDatetime")
                     .HasDefaultValueSql("(getdate())");
 
+                entity.Property(e => e.IsActive)
+                    .IsRequired()
+                    .HasDefaultValueSql("((1))");
+
                 entity.Property(e => e.Iuser).HasColumnName("IUser");
 
                 entity.Property(e => e.Name)
