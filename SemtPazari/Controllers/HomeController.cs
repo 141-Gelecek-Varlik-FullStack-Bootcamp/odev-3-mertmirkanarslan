@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace SemtPazari.Controllers
 {
+    //Projenin ana iskeleti düşünülerek oluşturuldu. Ödevin konusu olmadığı için kullanılmaya ihtiyaç duyulmadı. Aynı şekilde Core katmanı da oluşturuldu fakat
+    //proje özelinde Core katmana da ihtiyaç duyulmadı. 
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
