@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUJOne6G7EyDIEBpdV0yv5eZ00dy2hbQGbML16YephYBjxHBQp/QgI9z9tscN6qKLxjiQJUhwVYJ7IvqsHsUVQ==",
+  "dgSpecHash": "ZuhMUKLdZTt7NQmRuODU2PJCGI8blptwphIuJ4cM+DZiZ7SvWG+WI4Z/EpV3KawnlIgtIV11svEbVyXkkF+svQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.DB\\SemtPazari.DB.csproj",
+  "projectFilePath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.DB\\SemtPazari.DB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mertm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mertm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

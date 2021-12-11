@@ -11,9 +11,9 @@ namespace SemtPazari.Service.Product
     public interface IProductService
     {
         //ProductService de kullanılacak methodları bu interfacete tanımlıyoruz
-        public General<ListViewModel> GetProducts();
-        public General<ProductViewModel> Insert(ProductViewModel newProduct);
-        public General<UpdateViewModel> Update(int id, UpdateViewModel product);
-        public General<ListViewModel> Delete(int id);
+        public List<ProductViewModel> Get();
+        public General<ProductViewModel> Insert(ProductViewModel productViewModel);
+        public General<ProductViewModel> Update(int id, ProductViewModel productViewModel);
+        public bool Remove(int id); //silme işlemini tamamen silme yapmayacağız, bu nedenle bool olarak işledik.
     }
 }

@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.DB\\SemtPazari.DB.csproj",
+      "projectUniqueName": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.DB\\SemtPazari.DB.csproj",
       "projectName": "SemtPazari.DB",
-      "projectPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.DB\\SemtPazari.DB.csproj",
+      "projectPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.DB\\SemtPazari.DB.csproj",
       "packagesPath": "C:\\Users\\mertm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.DB\\obj\\",
+      "outputPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.DB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mertm\\AppData\\Roaming\\NuGet\\NuGet.Config",

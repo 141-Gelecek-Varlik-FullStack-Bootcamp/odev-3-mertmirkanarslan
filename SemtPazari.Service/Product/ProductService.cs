@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using SemtPazari.Model;
 using SemtPazari.Model.Product;
+using SemtPazari.DB.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SemtPazari.DB.Entities.DataContext;
 
 namespace SemtPazari.Service.Product
 {
@@ -25,13 +25,13 @@ namespace SemtPazari.Service.Product
             var result = new General<ListViewModel>();
             using (var context = new SemtPazariContext())
             {
-                // Silme işlemi gerçekleştirilecek id'ye ait ürün var mı kontrol ediliyor
-                // Varsa ürün siliniyor yoksa mesaj dönüyor
                 var product = context.Product.SingleOrDefault(i => i.Id == id);
-
                 if (product != null)
                 {
-                    context.Product.Remove(product);
+                    product.IsDeleted = true; //DB'de kalacak, sadece kullanıcıya göstermemiş oluyoruz
+                    product.IsActive = false;
+
+                    context.Product.Update(product);
                     context.SaveChanges();
 
                     result.Entity = mapper.Map<ListViewModel>(product);

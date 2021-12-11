@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari\\SemtPazari.Web.csproj": {}
+    "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari\\SemtPazari.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari\\SemtPazari.Web.csproj": {
+    "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari\\SemtPazari.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari\\SemtPazari.Web.csproj",
+        "projectUniqueName": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari\\SemtPazari.Web.csproj",
         "projectName": "SemtPazari.Web",
-        "projectPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari\\SemtPazari.Web.csproj",
+        "projectPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari\\SemtPazari.Web.csproj",
         "packagesPath": "C:\\Users\\mertm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari\\obj\\",
+        "outputPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mertm\\AppData\\Roaming\\NuGet\\NuGet.Config",

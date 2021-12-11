@@ -1488,6 +1488,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "SemtPazari.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "SemtPazari.DB": "1.0.0",
+          "SemtPazari.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SemtPazari.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SemtPazari.Core.dll": {}
+        }
+      },
       "SemtPazari.DB/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5759,6 +5774,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "SemtPazari.Core/1.0.0": {
+      "type": "project",
+      "path": "../SemtPazari.Core/SemtPazari.Core.csproj",
+      "msbuildProject": "../SemtPazari.Core/SemtPazari.Core.csproj"
+    },
     "SemtPazari.DB/1.0.0": {
       "type": "project",
       "path": "../SemtPazari.DB/SemtPazari.DB.csproj",
@@ -5773,6 +5793,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
+      "SemtPazari.Core >= 1.0.0",
       "SemtPazari.DB >= 1.0.0",
       "SemtPazari.Model >= 1.0.0"
     ]
@@ -5783,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.Service\\SemtPazari.Service.csproj",
+      "projectUniqueName": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Service\\SemtPazari.Service.csproj",
       "projectName": "SemtPazari.Service",
-      "projectPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.Service\\SemtPazari.Service.csproj",
+      "projectPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Service\\SemtPazari.Service.csproj",
       "packagesPath": "C:\\Users\\mertm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.Service\\obj\\",
+      "outputPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mertm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5804,11 +5825,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.DB\\SemtPazari.DB.csproj": {
-              "projectPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.DB\\SemtPazari.DB.csproj"
+            "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Core\\SemtPazari.Core.csproj": {
+              "projectPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Core\\SemtPazari.Core.csproj"
             },
-            "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.Model\\SemtPazari.Model.csproj": {
-              "projectPath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.Model\\SemtPazari.Model.csproj"
+            "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.DB\\SemtPazari.DB.csproj": {
+              "projectPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.DB\\SemtPazari.DB.csproj"
+            },
+            "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Model\\SemtPazari.Model.csproj": {
+              "projectPath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Model\\SemtPazari.Model.csproj"
             }
           }
         }

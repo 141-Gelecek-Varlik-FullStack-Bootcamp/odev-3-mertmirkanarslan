@@ -35,8 +35,6 @@ namespace SemtPazari.API
 
             //dependency injection
             services.AddSingleton(mapper);
-
-            // User ve Product interface'lerinin alakalý class'lara inject edildiði kýsým
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IProductService, ProductService>();
 
