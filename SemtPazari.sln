@@ -3,22 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtPazari.Web", "SemtPazari\SemtPazari.Web.csproj", "{077AED73-C532-472A-9311-3A4B33745E53}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemtPazari.API", "SemtPazari.API\SemtPazari.API.csproj", "{7397A69B-02F2-489F-BB79-BD36464907F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtPazari.API", "SemtPazari.API\SemtPazari.API.csproj", "{7397A69B-02F2-489F-BB79-BD36464907F6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{508ED47B-11F6-4B84-9C61-968CC09D8B25} = {508ED47B-11F6-4B84-9C61-968CC09D8B25}
 		{CBAD4189-B9C5-48D9-9344-E3566F637653} = {CBAD4189-B9C5-48D9-9344-E3566F637653}
 		{E19F30A7-40E7-4B8D-BAE4-8210195EF076} = {E19F30A7-40E7-4B8D-BAE4-8210195EF076}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemtPazari.Core", "SemtPazari.Core\SemtPazari.Core.csproj", "{522FE8BA-0949-4A46-928F-4C81E5DCEEAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtPazari.Core", "SemtPazari.Core\SemtPazari.Core.csproj", "{522FE8BA-0949-4A46-928F-4C81E5DCEEAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemtPazari.DB", "SemtPazari.DB\SemtPazari.DB.csproj", "{508ED47B-11F6-4B84-9C61-968CC09D8B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtPazari.DB", "SemtPazari.DB\SemtPazari.DB.csproj", "{508ED47B-11F6-4B84-9C61-968CC09D8B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemtPazari.Model", "SemtPazari.Model\SemtPazari.Model.csproj", "{E19F30A7-40E7-4B8D-BAE4-8210195EF076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtPazari.Model", "SemtPazari.Model\SemtPazari.Model.csproj", "{E19F30A7-40E7-4B8D-BAE4-8210195EF076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemtPazari.Service", "SemtPazari.Service\SemtPazari.Service.csproj", "{CBAD4189-B9C5-48D9-9344-E3566F637653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtPazari.Service", "SemtPazari.Service\SemtPazari.Service.csproj", "{CBAD4189-B9C5-48D9-9344-E3566F637653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{077AED73-C532-472A-9311-3A4B33745E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{077AED73-C532-472A-9311-3A4B33745E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{077AED73-C532-472A-9311-3A4B33745E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{077AED73-C532-472A-9311-3A4B33745E53}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7397A69B-02F2-489F-BB79-BD36464907F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7397A69B-02F2-489F-BB79-BD36464907F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7397A69B-02F2-489F-BB79-BD36464907F6}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ynlG5oGT8B4XzAuWG35m3+NkErJ0yMMecQXoWnu9Fep+20vACbWz4S70ilrWwn9nJMREbd1r5SzgluFhun2zdg==",
+  "dgSpecHash": "XM37dljDvtUNP53nMuftNkNiCJ9VmG71sdTS1S8vS9BZJu3rA8W2pg8qbHLHyFfWqRDfpKjAj2JcVC1bZewynw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.API\\SemtPazari.API.csproj",
+  "projectFilePath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.API\\SemtPazari.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mertm\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\mertm\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

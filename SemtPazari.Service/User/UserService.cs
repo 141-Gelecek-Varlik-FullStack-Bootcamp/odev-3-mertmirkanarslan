@@ -51,9 +51,13 @@ namespace SemtPazari.Service.User
 
             using (var context = new SemtPazariContext())
             {
+<<<<<<< HEAD
+                model.Idate = DateTime.Now;
+=======
                 model.Idatetime = DateTime.Now;
                 model.IsActive = true;
                 model.IsDeleted = false;
+>>>>>>> 4b0ce1aa505d15dfb16d08ce6c31d8678a5e72f2
                 context.User.Add(model);
                 context.SaveChanges();
 
@@ -70,11 +74,12 @@ namespace SemtPazari.Service.User
             using (var context = new SemtPazariContext())
             {
                 //önce linq ile id ye göre kullanıcıyı getireceğiz. burada kullanıcı gelirse güncelleme işlemi, gelmezse de exception mesajı olarak "kullanıcı bulunamadı" döndürüyoruz.
-                var updateUser = context.User.SingleOrDefault(i => i.Id == id);
+                var updateUser = context.User.SingleOrDefault(x => x.Id == id);
 
                 if (updateUser is not null)
                 {
                     updateUser.Name = user.Name;
+                    updateUser.Surname = user.Surname;
                     updateUser.UserName = user.UserName;
                     updateUser.Email = user.Email;
                     updateUser.Password = user.Password;
@@ -113,8 +118,8 @@ namespace SemtPazari.Service.User
                 {
                     result.Exception = "Kullanıcı bulunamadı.";
                 }
-                return result;
             }
+            return result;
         }
 
         //Kullanıcı Login

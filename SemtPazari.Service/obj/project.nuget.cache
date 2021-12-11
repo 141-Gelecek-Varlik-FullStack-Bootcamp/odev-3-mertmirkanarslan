@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yxJrP1KiWPE/QKLCgN4HLHNWuAtDoJ5/nWOjtHn8l380ozr4GwPKoUDeQ/BT5s/mVPSxx2zoxa8/IXcXDfm5+A==",
+  "dgSpecHash": "wkUJRY7BlC7WEIVP0SVMmAGkVJmumFBQf4p1nPWBHYW/A2/X9Z5/8gdymbxk++xIaeyuBqmFeeTTg4fO+I8FFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mertm\\Desktop\\odev-3-mertmirkanarslan-main\\SemtPazari.Service\\SemtPazari.Service.csproj",
+  "projectFilePath": "C:\\Users\\mertm\\Documents\\GitHub\\odev-3-mertmirkanarslan\\SemtPazari.Service\\SemtPazari.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mertm\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\mertm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
