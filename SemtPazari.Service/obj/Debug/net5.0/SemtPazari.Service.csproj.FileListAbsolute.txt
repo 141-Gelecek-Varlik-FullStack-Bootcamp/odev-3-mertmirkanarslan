@@ -1,0 +1,12 @@
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\bin\Debug\net5.0\SemtPazari.Service.deps.json
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\bin\Debug\net5.0\SemtPazari.Service.dll
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\bin\Debug\net5.0\ref\SemtPazari.Service.dll
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\bin\Debug\net5.0\SemtPazari.Service.pdb
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.csprojAssemblyReference.cache
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.AssemblyInfoInputs.cache
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.AssemblyInfo.cs
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.csproj.CoreCompileInputs.cache
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.dll
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\ref\SemtPazari.Service.dll
+C:\Users\mertm\Documents\GitHub\odev-3-mertmirkanarslan\SemtPazari.Service\obj\Debug\net5.0\SemtPazari.Service.pdb
