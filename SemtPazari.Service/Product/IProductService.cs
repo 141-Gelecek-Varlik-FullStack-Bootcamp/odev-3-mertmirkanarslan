@@ -10,7 +10,7 @@ namespace SemtPazari.Service.Product
 {
     public interface IProductService
     {
-        //ProductService de kullanılacak methodları bu interfacete tanımlıyoruz
+        //ProductService'te kullanılacak methodları bu interfacete tanımlıyoruz
         public General<ListViewModel> GetProducts();
         public General<ProductViewModel> Insert(ProductViewModel newProduct);
         public General<UpdateViewModel> Update(int id, UpdateViewModel product);

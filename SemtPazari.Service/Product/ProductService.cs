@@ -16,7 +16,7 @@ namespace SemtPazari.Service.Product
         private readonly IMapper mapper;
         public ProductService(IMapper _mapper)
         {
-            //mapper = _mapper
+            mapper = _mapper;
         }
 
         //Ürünlerin silinmesi: id ile kontrol sağlıyoruz
@@ -25,9 +25,8 @@ namespace SemtPazari.Service.Product
             var result = new General<ListViewModel>();
             using (var context = new SemtPazariContext())
             {
-                // Silme işlemi gerçekleştirilecek id'ye ait ürün var mı kontrol ediliyor
-                // Varsa ürün siliniyor yoksa mesaj dönüyor
-                var product = context.Product.SingleOrDefault(i => i.Id == id);
+                //id üzerinden kontrol ediyor. Buradan silme ve mesaj dönme sağlanıyor.
+                var product = context.Product.SingleOrDefault(x => x.Id == id);
 
                 if (product != null)
                 {
@@ -79,7 +78,7 @@ namespace SemtPazari.Service.Product
 
             using (var context = new SemtPazariContext())
             {
-                //authentication kullanıyoruz. modelden gelen Id, dbdeki userlardan birininkine eşitse, login gerçekleşmiş oluyor. 
+                //authentication değişkeni kullanıyoruz. modelden gelen Id, dbdeki userlardan birininkine eşitse, login gerçekleşmiş oluyor. 
                 //eğer kullanıcı sistemden kaldırılmamışsa, ürün ekleyebilme yetkisine sahip oluyor:
                 var isAuthenticated = context.User.Any(x => x.Id == model.Iuser && x.IsActive && !x.IsDeleted);
 

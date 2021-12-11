@@ -126,11 +126,9 @@ namespace SemtPazari.Service.User
             {
                 //username, isactive, isdeleted ve password üzerinden kontrol.Bunu da issuccess diye bir kontrolden yapıyoruz.
                 result.Entity = mapper.Map<LoginViewModel>(model);
-                result.IsSuccess = context.User.Any(
-                    x => x.UserName == user.UserName &&
-                                       x.IsActive &&
-                                       !x.IsDeleted &&
-                                       x.Password == user.Password);
+                result.IsSuccess = context.User.Any(x => x.UserName == user.UserName &&
+                                                   x.IsActive && !x.IsDeleted &&
+                                                   x.Password == user.Password);
             }
             return result;
         }
