@@ -8,4 +8,9 @@
     <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SemtPazari.DB\SemtPazari.DB.csproj" />
+    <ProjectReference Include="..\SemtPazari.Model\SemtPazari.Model.csproj" />
+  </ItemGroup>
+
 </Project>

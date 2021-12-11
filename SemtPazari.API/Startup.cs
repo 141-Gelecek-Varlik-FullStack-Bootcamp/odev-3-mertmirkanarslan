@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,6 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SemtPazari.API.Infrastructure;
+using SemtPazari.Service.Product;
+using SemtPazari.Service.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +30,15 @@ namespace SemtPazari.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var _mappingProfile = new MapperConfiguration(mp => { mp.AddProfile(new MappingProfile()); });
+            IMapper mapper = _mappingProfile.CreateMapper();
+
+            //dependency injection
+            services.AddSingleton(mapper);
+
+            // User ve Product interface'lerinin alakalý class'lara inject edildiði kýsým
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IProductService, ProductService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
